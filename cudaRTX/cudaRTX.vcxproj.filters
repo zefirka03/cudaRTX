@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AIR_RTX">
+      <UniqueIdentifier>{5e692327-b98a-4e5f-aab0-c390db77a2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AIR_RTX\UI">
+      <UniqueIdentifier>{f0d3d369-0720-4e09-b4f6-64d46441e715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AIR_RTX\Glut">
+      <UniqueIdentifier>{bf527926-cd4c-4a73-beb8-313c2e975b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AIR_RTX\RTX_renderObjects">
+      <UniqueIdentifier>{a36e2262-963b-44ae-964e-4c3aaa7d0591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AIR_RTX\Host_renderObjects">
+      <UniqueIdentifier>{1df4a6cb-1943-4c89-adc0-a68ab75ad10b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>AIR_RTX</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>AIR_RTX</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>AIR_RTX</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>AIR_RTX</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_block.cpp">
+      <Filter>AIR_RTX\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>AIR_RTX\Glut</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>AIR_RTX\Glut</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3D.cpp">
+      <Filter>AIR_RTX\Host_renderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>AIR_RTX\Host_renderObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CudaRTXSolver.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="generalIncludes.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="AIR_RTX.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="ppmSaver.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="someFunctions.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>AIR_RTX</Filter>
+    </ClInclude>
+    <ClInclude Include="renderSphere.h">
+      <Filter>AIR_RTX\RTX_renderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="renderTriangle.h">
+      <Filter>AIR_RTX\RTX_renderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>AIR_RTX\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_block.h">
+      <Filter>AIR_RTX\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>AIR_RTX\Glut</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>AIR_RTX\Glut</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>AIR_RTX\Host_renderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3D.h">
+      <Filter>AIR_RTX\Host_renderObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>AIR_RTX</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
